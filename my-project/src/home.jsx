@@ -5,19 +5,15 @@ import PartnerWeby from "./PartnerWeby";
 import Footer from "./footer";
 import Kontakty from "./Kontakty";
 import { Routes, Route } from "react-router-dom";
-import Home from "./home";
 
-function App() {
+function home() {
   return (
     <>
-      <Navbar></Navbar>
-      <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/kontakty" element={<Kontakty></Kontakty>}></Route>
-      </Routes>
-      <Footer></Footer>
+      <Sluzby></Sluzby>
+      <Partneri></Partneri>
+      <PartnerWeby></PartnerWeby>
     </>
   );
 }
 
-export default App;
+export default home;
