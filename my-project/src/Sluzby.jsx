@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Sluzby() {
   return (
     <>
@@ -12,7 +14,7 @@ function Sluzby() {
         <section className="text-center  lg:w-1/2 mx-auto">
           <h2 className="font-bold text-3xl mb-8 mt-36">Služby</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 justify-center mb-8">
-            <a href="">
+            <Link to="/truck">
               <div className="relative">
                 <img
                   src="\src\assets\truck.png"
@@ -27,7 +29,7 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
             <a href="">
               <div className="relative">
                 <img
