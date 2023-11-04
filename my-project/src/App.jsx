@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import Sluzby from "./Sluzby";
 import Partneri from "./partneri";
 import PartnerWeby from "./PartnerWeby";
