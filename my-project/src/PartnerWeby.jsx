@@ -8,7 +8,7 @@ function PartnerWeby() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 w-56 lg:w-auto">
           <a href="/">
             <img
-              src="\src\assets\vos-sos-roudnice.png"
+              src="/assets/vos-sos-roudnice.png"
               alt=""
               className="opacity-60 hover:opacity-100 transition duration-200"
             />
@@ -16,7 +16,7 @@ function PartnerWeby() {
           </a>
           <a href="/">
             <img
-              src="\src\assets\csad_sc.gif"
+              src="/assets/csad_sc.gif"
               alt=""
               className="opacity-60 hover:opacity-100 transition duration-200"
             />

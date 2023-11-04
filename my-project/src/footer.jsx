@@ -3,7 +3,7 @@ function PartnerWeby() {
     <>
       <div>
         <img
-          src="\src\assets\placeholder.png"
+          src="/assets/placeholder.png"
           alt="placeholder"
           className="w-full"
         />

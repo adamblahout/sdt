@@ -6,7 +6,7 @@ function Sluzby() {
       <div className="grid grid-cols-1 lg:grid-cols-2  mx-32 lg:mt-96 ">
         <aside>
           <img
-            src="\src\assets\SDT-newlogo.jpg"
+            src="/assets/SDT-newlogo.jpg"
             alt="logo"
             className="mt-24 lg:mt-64 lg:ml-36 md:mt-48 md:ml-28"
           />
@@ -17,7 +17,7 @@ function Sluzby() {
             <Link to="/truck">
               <div className="relative">
                 <img
-                  src="\src\assets\truck.png"
+                  src="/assets/truck.png"
                   alt=""
                   className="w-56 lg:w-64 mx-auto rounded-lg"
                 />
@@ -33,7 +33,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\bus.png"
+                  src="/assets/bus.png"
                   alt=""
                   className="w-56 lg:w-66 mx-auto rounded-lg"
                 />
@@ -49,7 +49,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\trailer.png"
+                  src="/assets/trailer.png"
                   alt=""
                   className="w-52 lg:w-64 mx-auto rounded-lg"
                 />
@@ -67,7 +67,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\handshake.png"
+                  src="/assets/handshake.png"
                   alt=""
                   className="w-52 lg:w-64 mx-auto rounded-lg"
                 />
@@ -83,7 +83,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\wrench.png"
+                  src="/assets/wrench.png"
                   alt=""
                   className="w-52 lg:w-64 mx-auto rounded-lg"
                 />
@@ -99,7 +99,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\gallery.png"
+                  src="/assets/gallery.png"
                   alt=""
                   className="w-52 lg:w-64 mx-auto rounded-lg"
                 />
@@ -117,7 +117,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\car-wash.png"
+                  src="/assets/car-wash.png"
                   alt=""
                   className="w-52 lg:w-64 mx-auto rounded-lg"
                 />
@@ -133,7 +133,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\tires.png"
+                  src="/assets/tires.png"
                   alt=""
                   className="w-52 lg:w-64 mx-auto rounded-lg"
                 />
@@ -149,7 +149,7 @@ function Sluzby() {
             <a href="">
               <div className="relative">
                 <img
-                  src="\src\assets\filling_station.png"
+                  src="/assets/filling_station.png"
                   alt=""
                   className="w-52 lg:w-64 mx-auto rounded-lg"
                 />

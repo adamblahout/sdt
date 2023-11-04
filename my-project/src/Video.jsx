@@ -2,7 +2,7 @@ function Video() {
   return (
     <div>
       <video
-        src="\src\assets\video.mov"
+        src="/assets/video.mov"
         muted
         autoPlay
         loop
