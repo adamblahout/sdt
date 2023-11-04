@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Sluzby from "./Sluzby";
-import Partneri from "./partneri";
+import Partneri from "./Partneri";
 import PartnerWeby from "./PartnerWeby";
 import Footer from "./footer";
 import Kontakty from "./Kontakty";
