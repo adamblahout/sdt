@@ -25,7 +25,7 @@ const Nav = () => {
             <Link to={"/"}>
               <span className="text-3xl text-indigo-600 mr-1 pt-2">
                 <img
-                  src="\src\assets\SDT_logo_as_plain.png"
+                  src="SDT_logo_as_plain.png"
                   alt="logo"
                   className="w-32 md:w-36 lg:w-48 "
                 />
