@@ -7,8 +7,13 @@ function Video() {
         autoPlay
         loop
         disablePictureInPicture
-        className="absolute w-full  lg:h-2/4 md:h-2/5 object-cover md:visible lg:visible -z-10 opacity-70"
+        className="w-full h-80 object-cover md:visible lg:visible -z-10 opacity-70 hidden md:block lg:block"
       ></video>
+      <img
+        src="/assets/truck_img.png"
+        alt="truck_img"
+        className="visible md:hidden  lg:hidden md:none -mt-80 md:-mt-40"
+      />
     </div>
   );
 }

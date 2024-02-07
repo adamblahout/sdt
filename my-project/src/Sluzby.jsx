@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 function Sluzby() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2  mx-32 lg:mt-96 ">
-        <aside>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-32 md:mt-6 lg:mt-6 ">
+        <aside className="hidden md:block lg:block w-5/6">
           <img
             src="/assets/SDT-newlogo.jpg"
             alt="logo"
-            className="mt-24 lg:mt-64 lg:ml-36 md:mt-48 md:ml-28"
+            className="mt-24 lg:mt-64 "
           />
         </aside>
-        <section className="text-center  lg:w-1/2 mx-auto">
-          <h2 className="font-bold text-3xl mb-8 mt-36">Služby</h2>
+        <section className="text-center mx-auto w-2/3 md:mt-8 lg:mt-8 ">
+          <h2 className="font-bold text-3xl mb-8">Služby</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 justify-center mb-8">
             <Link to="/truck">
               <div className="relative">
@@ -30,7 +30,7 @@ function Sluzby() {
                 </div>
               </div>
             </Link>
-            <a href="">
+            <Link to="/bus">
               <div className="relative">
                 <img
                   src="/assets/bus.png"
@@ -45,8 +45,8 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/trailer">
               <div className="relative">
                 <img
                   src="/assets/trailer.png"
@@ -61,10 +61,10 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-            <a href="">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-8">
+            <Link to="/handshake">
               <div className="relative">
                 <img
                   src="/assets/handshake.png"
@@ -79,8 +79,8 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/wrench">
               <div className="relative">
                 <img
                   src="/assets/wrench.png"
@@ -95,8 +95,8 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/gallery">
               <div className="relative">
                 <img
                   src="/assets/gallery.png"
@@ -111,10 +111,10 @@ function Sluzby() {
                   </div>
                 </div>{" "}
               </div>
-            </a>
+            </Link>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-32">
-            <a href="">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-32">
+            <Link to="/car_wash">
               <div className="relative">
                 <img
                   src="/assets/car-wash.png"
@@ -129,8 +129,8 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/tires">
               <div className="relative">
                 <img
                   src="/assets/tires.png"
@@ -145,8 +145,8 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/filling_station">
               <div className="relative">
                 <img
                   src="/assets/filling_station.png"
@@ -161,7 +161,7 @@ function Sluzby() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </section>
       </div>

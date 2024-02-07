@@ -1,9 +1,7 @@
-import Navbar from "./Navbar";
-
 function Kontakty() {
   return (
     <>
-      <div class="container ml-32">
+      <div class="ml-8 mt-16">
         <h2 id="kontakty" className="text-4xl font-bold text-center mb-8">
           Kontakty
         </h2>
@@ -12,9 +10,9 @@ function Kontakty() {
           Vedení společnosti
         </h4>
 
-        <table className="border-separate border-spacing-4 bg-gray-200 rounded-md">
+        <table className="border-separate border-spacing-4 w-full rounded-md">
           <thead className="">
-            <tr className="">
+            <tr className="text-left">
               <th classname="">Funkce</th>
               <th classname="">Jméno a příjmení</th>
               <th classname="">Telefon</th>
@@ -34,7 +32,7 @@ function Kontakty() {
                 </a>
               </td>
             </tr>
-            <tr className="">
+            <tr className="text-left">
               <td classname="">Fin. ředitel</td>
               <td classname="">Ing. Miroslav Dvořák</td>
               <td classname="">315 670 174</td>
@@ -43,7 +41,7 @@ function Kontakty() {
                 <a href="mailto:dvorak@csad-me.cz">dvorak@csad-me.cz</a>
               </td>
             </tr>
-            <tr className="">
+            <tr className="text-left">
               <td classname="">Ředitel</td>
               <td classname="">Ing. Vladislav Olejár</td>
               <td classname="">315 671 080</td>
@@ -58,9 +56,9 @@ function Kontakty() {
         <h4 id="servis-trailer---mělník" className="text-2xl font-bold my-4">
           Servis TRAILER - Mělník
         </h4>
-        <table className="border-separate border-spacing-4 bg-gray-200 rounded-md">
+        <table className="border-separate border-spacing-4 w-full rounded-md">
           <thead>
-            <tr>
+            <tr className="text-left">
               <th classname="w-15 text-left">
                 <strong>Funkce</strong>
               </th>
@@ -78,7 +76,7 @@ function Kontakty() {
               </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-left">
             <tr>
               <td classname="w-15 text-left">Ved. servisu</td>
               <td classname="w-30 text-left">Petr Kučera</td>
@@ -120,7 +118,7 @@ function Kontakty() {
             </tr>
           </tbody>
 
-          <thead>
+          <thead className="text-left">
             <tr>
               <th classname="w-15 text-left">
                 <strong>
@@ -146,7 +144,7 @@ function Kontakty() {
               </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-left">
             <tr>
               <td classname="w-15 text-left">Ved. skladu</td>
               <td classname="w-30 text-left">
@@ -173,7 +171,7 @@ function Kontakty() {
             </tr>
           </tbody>
 
-          <thead>
+          <thead className="text-left">
             <tr>
               <th classname="w-15 text-left">
                 <strong>
@@ -199,7 +197,7 @@ function Kontakty() {
               </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-left">
             <tr>
               <td classname="w-15 text-left"></td>
               <td classname="w-30 text-left">Eva Kučerová</td>
@@ -216,7 +214,7 @@ function Kontakty() {
           Servis BUS &amp; TRUCK - Mělník
         </h4>
 
-        <table className="border-separate border-spacing-4 bg-gray-200 rounded-md">
+        <table className="border-separate border-spacing-4 w-full rounded-md text-left">
           <thead>
             <tr>
               <th classname="w-15 text-left">
@@ -365,7 +363,7 @@ function Kontakty() {
           Servis BUS - Brandýs nad Labem/Stará Boleslav
         </h4>
 
-        <table className="border-separate border-spacing-4 bg-gray-200 rounded-md">
+        <table className="text-left border-separate border-spacing-4 w-full rounded-md">
           <thead>
             <tr>
               <th classname="w-15 text-left">
@@ -445,7 +443,7 @@ function Kontakty() {
           Správa majetku, investice, PHM, mycí linka
         </h4>
 
-        <table className="border-separate border-spacing-4 bg-gray-200 rounded-md">
+        <table className="text-left border-separate border-spacing-4 w-full rounded-md">
           <thead>
             <tr>
               <th classname="w-15 text-left">
@@ -491,7 +489,7 @@ function Kontakty() {
           Skladování a logistika
         </h4>
 
-        <table className="border-separate border-spacing-4 bg-gray-200 rounded-md mb-8">
+        <table className="text-left border-separate border-spacing-4 w-full rounded-md mb-8">
           <thead>
             <tr>
               <th classname="w-15 text-left">

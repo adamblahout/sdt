@@ -6,7 +6,7 @@ function PartnerWeby() {
       </section>
       <div className="flex flex-col items-center justify-center h-96 bg-gray-300">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 w-56 lg:w-auto">
-          <a href="/">
+          <a href="https://www.vosasos.cz/" target="_blank">
             <img
               src="/assets/vos-sos-roudnice.png"
               alt=""
@@ -14,7 +14,7 @@ function PartnerWeby() {
             />
             ,
           </a>
-          <a href="/">
+          <a href="https://csad-sc.cz/" target="_blank">
             <img
               src="/assets/csad_sc.gif"
               alt=""
