@@ -1,7 +1,7 @@
 function Kontakty() {
   return (
     <>
-      <div class="ml-8 mt-16">
+      <div className="ml-8 mt-16">
         <h2 id="kontakty" className="text-4xl font-bold text-center mb-8">
           Kontakty
         </h2>
@@ -10,109 +10,113 @@ function Kontakty() {
           Vedení společnosti
         </h4>
 
-        <table className="border-separate border-spacing-4 w-full rounded-md">
+        <table className="border-separate border-spacing-4 rounded-md">
           <thead className="">
-            <tr className="text-left">
-              <th classname="">Funkce</th>
-              <th classname="">Jméno a příjmení</th>
-              <th classname="">Telefon</th>
-              <th classname="">Mobilní telefon</th>
-              <th classname="">E-mail</th>
+            <tr className="text-left ">
+              <th className="w-15">Funkce</th>
+              <th className="w-30">Jméno a příjmení</th>
+              <th className="w-32">Telefon</th>
+              <th className="w-40">Mobilní telefon</th>
+              <th className="w-25">E-mail</th>
             </tr>
           </thead>
           <tbody>
             <tr className="">
-              <td classname="">CEO</td>
-              <td classname="">Ing. Miloslav Studenovský</td>
-              <td classname="">315 670 174</td>
-              <td classname=""></td>
-              <td classname="">
+              <td>CEO</td>
+              <td>Ing. Miloslav Studenovský</td>
+              <td>315 670 174</td>
+              <td></td>
+              <td className="text-blue-700 hover:text-blue-400">
                 <a href="mailto:studenovsky@csad-me.cz">
                   studenovsky@csad-me.cz
                 </a>
               </td>
             </tr>
             <tr className="text-left">
-              <td classname="">Fin. ředitel</td>
-              <td classname="">Ing. Miroslav Dvořák</td>
-              <td classname="">315 670 174</td>
-              <td classname=""></td>
-              <td classname="">
+              <td>Fin. ředitel</td>
+              <td>Ing. Miroslav Dvořák</td>
+              <td>315 670 174</td>
+              <td></td>
+              <td className="text-blue-700 hover:text-blue-400">
                 <a href="mailto:dvorak@csad-me.cz">dvorak@csad-me.cz</a>
               </td>
             </tr>
             <tr className="text-left">
-              <td classname="">Ředitel</td>
-              <td classname="">Ing. Vladislav Olejár</td>
-              <td classname="">315 671 080</td>
-              <td classname="">+420 737 229 550</td>
-              <td classname="">
+              <td>Ředitel</td>
+              <td>Ing. Vladislav Olejár</td>
+              <td>315 671 080</td>
+              <td>+420 737 229 550</td>
+              <td className="text-blue-700 hover:text-blue-400">
                 <a href="mailto:olejar@sdt-me.cz">olejar@sdt-me.cz</a>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <h4 id="servis-trailer---mělník" className="text-2xl font-bold my-4">
-          Servis TRAILER - Mělník
-        </h4>
-        <table className="border-separate border-spacing-4 w-full rounded-md">
+        <h4 className="text-2xl font-bold my-4">Servis TRAILER - Mělník</h4>
+        <table className="border-separate border-spacing-4  rounded-md">
           <thead>
             <tr className="text-left">
-              <th classname="w-15 text-left">
+              <th className="w-15 text-left">
                 <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-32 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-40 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody className="text-left">
             <tr>
-              <td classname="w-15 text-left">Ved. servisu</td>
-              <td classname="w-30 text-left">Petr Kučera</td>
-              <td classname="w-10 text-left">315 671 070</td>
-              <td classname="w-20 text-left">+420 737 229 461</td>
-              <td classname="w-25 text-left">
+              <td>Ved. servisu</td>
+              <td>Petr Kučera</td>
+              <td>315 671 070</td>
+              <td>+420 737 229 461</td>
+              <td className="text-blue-700 hover:text-blue-400">
                 <a href="mailto:kucera@sdt-me.cz">kucera@sdt-me.cz</a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left">Příjem oprav</td>
-              <td classname="w-30 text-left">Michal Suchan</td>
-              <td classname="w-10 text-left">315 671 070</td>
-              <td classname="w-20 text-left">+420 737 229 409</td>
-              <td classname="w-25 text-left">
+              <td>Příjem oprav</td>
+              <td>Michal Suchan</td>
+              <td>315 671 070</td>
+              <td>+420 737 229 409</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:suchan@sdt-me.cz">suchan@sdt-me.cz</a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left">Příjem oprav</td>
-              <td classname="w-30 text-left">Michal Kosák</td>
-              <td classname="w-10 text-left">315 671 070</td>
-              <td classname="w-20 text-left">+420 737 229 725</td>
-              <td classname="w-25 text-left">
+              <td>Příjem oprav</td>
+              <td>Michal Kosák</td>
+              <td>315 671 070</td>
+              <td>+420 737 229 725</td>
+              <td className="w-25 text-left text-blue-700 hover:text-blue-400">
                 <a href="mailto:kosak@sdt-me.cz">kosak@sdt-me.cz</a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left">SDT Slovakia</td>
-              <td classname="w-30 text-left">
+              <td className="w-15 text-left">SDT Slovakia</td>
+              <td className="w-30 text-left">
                 Jan Mareček (
-                <a href="mailto:marecek@sdt-me.cz">marecek@sdt-me.cz</a>)
+                <a
+                  href="mailto:marecek@sdt-me.cz"
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  marecek@sdt-me.cz
+                </a>
+                )
               </td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 744</td>
-              <td classname="w-25 text-left">
+              <td></td>
+              <td>+420 737 229 744</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:dcbeckov@sdt-me.cz">dcbeckov@sdt-me.cz</a>
               </td>
             </tr>
@@ -120,52 +124,60 @@ function Kontakty() {
 
           <thead className="text-left">
             <tr>
-              <th classname="w-15 text-left">
-                <strong>
-                  <u>Sklad a prodej ND</u>
-                </strong>
-              </th>
+              <th className="text-2xl font-bold my-4">Sklad a prodej ND</th>
             </tr>
             <tr>
-              <th classname="w-15 text-left">
-                <strong></strong>
+              <th className="w-15 text-left">
+                <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-40 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-20 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody className="text-left">
             <tr>
-              <td classname="w-15 text-left">Ved. skladu</td>
-              <td classname="w-30 text-left">
+              <td>Ved. skladu</td>
+              <td>
                 Jakub Hejna (
-                <a href="mailto:hejna@sdt-me.cz">hejna@sdt-me.cz</a>)
+                <a
+                  href="mailto:hejna@sdt-me.cz"
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  hejna@sdt-me.cz
+                </a>
+                )
               </td>
-              <td classname="w-10 text-left">315 671 070</td>
-              <td classname="w-20 text-left">+420 737 229 610</td>
-              <td classname="w-25 text-left">
+              <td>315 671 070</td>
+              <td>+420 737 229 610</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:sklad@sdt-me.cz">sklad@sdt-me.cz</a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left"></td>
-              <td classname="w-30 text-left">
+              <td></td>
+              <td>
                 Monika Kosáková (
-                <a href="mailto:kosakova@sdt-me.cz">kosakova@sdt-me.cz</a>)
+                <a
+                  href="mailto:kosakova@sdt-me.cz"
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  kosakova@sdt-me.cz
+                </a>
+                )
               </td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 622</td>
-              <td classname="w-25 text-left">
+              <td></td>
+              <td>+420 737 229 622</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:sklad@sdt-me.cz">sklad@sdt-me.cz</a>
               </td>
             </tr>
@@ -173,92 +185,88 @@ function Kontakty() {
 
           <thead className="text-left">
             <tr>
-              <th classname="w-15 text-left">
-                <strong>
-                  <u>Fakturace</u>
-                </strong>
-              </th>
+              <th className="text-2xl font-bold my-4">Fakturace</th>
             </tr>
             <tr>
-              <th classname="w-15 text-left">
-                <strong></strong>
+              <th className="w-15 text-left">
+                <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-40 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-20 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody className="text-left">
             <tr>
-              <td classname="w-15 text-left"></td>
-              <td classname="w-30 text-left">Eva Kučerová</td>
-              <td classname="w-10 text-left">315 671 070</td>
-              <td classname="w-20 text-left"></td>
-              <td classname="w-25 text-left">
+              <td></td>
+              <td>Eva Kučerová</td>
+              <td>315 671 070</td>
+              <td></td>
+              <td className="w-25 text-left text-blue-700 hover:text-blue-400">
                 <a href="mailto:kucerova@sdt-me.cz">kucerova@sdt-me.cz</a>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <h4 id="servis-bus--truck---mělník" className="text-2xl font-bold my-4">
+        <h4 className="text-2xl font-bold my-4">
           Servis BUS &amp; TRUCK - Mělník
         </h4>
 
-        <table className="border-separate border-spacing-4 w-full rounded-md text-left">
+        <table className="border-separate border-spacing-4  rounded-md text-left">
           <thead>
             <tr>
-              <th classname="w-15 text-left">
+              <th className="w-15 text-left">
                 <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-40 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-20 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td classname="w-15 text-left">Ved. servisu</td>
-              <td classname="w-30 text-left">Martin Bernard</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 568</td>
-              <td classname="w-25 text-left">
+              <td>Ved. servisu</td>
+              <td>Martin Bernard</td>
+              <td></td>
+              <td>+420 737 229 568</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:bernard@sdt-me.cz">bernard@sdt-me.cz</a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left">Ved. dílen</td>
-              <td classname="w-30 text-left">Tomáš Ligenza</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 626</td>
-              <td classname="w-25 text-left">
+              <td>Ved. dílen</td>
+              <td>Tomáš Ligenza</td>
+              <td></td>
+              <td>+420 737 229 626</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:ligenza@sdt-me.cz">ligenza@sdt-me.cz</a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left">Mistr servisu</td>
-              <td classname="w-30 text-left">Josef Balogh</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 690</td>
-              <td classname="w-25 text-left">
+              <td>Mistr servisu</td>
+              <td>Josef Balogh</td>
+              <td></td>
+              <td>+420 737 229 690</td>
+              <td className="400">
                 <a href="mailto:balogh@sdt-me.cz">balogh@sdt-me.cz</a>
               </td>
             </tr>
@@ -266,37 +274,33 @@ function Kontakty() {
 
           <thead>
             <tr>
-              <th classname="w-15 text-left">
-                <strong>
-                  <u>Diagnostika</u>
-                </strong>
-              </th>
+              <th className="text-2xl font-bold my-4">Diagnostika</th>
             </tr>
             <tr>
-              <th classname="w-15 text-left">
-                <strong></strong>
+              <th className="w-15 text-left">
+                <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-40 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-20 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td classname="w-15 text-left">Ved. diagnostiky</td>
-              <td classname="w-30 text-left">Tomáš Ligenza</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 626</td>
-              <td classname="w-25 text-left">
+              <td>Ved. diagnostiky</td>
+              <td>Tomáš Ligenza</td>
+              <td></td>
+              <td>+420 737 229 626</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:ligenza@sdt-me.cz">ligenza@sdt-me.cz</a>
               </td>
             </tr>
@@ -304,92 +308,111 @@ function Kontakty() {
 
           <thead>
             <tr>
-              <th classname="w-15 text-left">
-                <strong>
-                  <u>Sklad a prodej ND</u>
-                </strong>
-              </th>
+              <th className="text-2xl font-bold my-4">Sklad a prodej ND</th>
             </tr>
             <tr>
-              <th classname="w-15 text-left">
-                <strong></strong>
+              <th className="w-15 text-left">
+                <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-10 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-40 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td classname="w-15 text-left">Ved. skladu</td>
-              <td classname="w-30 text-left">
+              <td>Ved. skladu</td>
+              <td>
                 Petra Řepová (
-                <a href="mailto:repova@sdt-me.cz">repova@sdt-me.cz</a>)
+                <a
+                  href="mailto:repova@sdt-me.cz"
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  repova@sdt-me.cz
+                </a>
+                )
               </td>
-              <td classname="w-10 text-left">315 671 070</td>
-              <td classname="w-20 text-left">+420 737 229 610</td>
-              <td classname="w-25 text-left">
-                <a href="mailto:sklad3me@sdt-me.cz">sklad3me@sdt-me.cz</a>
+              <td>315 671 070</td>
+              <td>+420 737 229 610</td>
+              <td>
+                <a
+                  href="mailto:sklad3me@sdt-me.cz"
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  sklad3me@sdt-me.cz
+                </a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left"></td>
-              <td classname="w-30 text-left">
+              <td></td>
+              <td>
                 Markéta Pokorná (
-                <a href="mailto:pokorna@sdt-me.cz">pokorna@sdt-me.cz</a>)
+                <a
+                  href="mailto:pokorna@sdt-me.cz"
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  pokorna@sdt-me.cz
+                </a>
+                )
               </td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 622</td>
-              <td classname="w-25 text-left">
-                <a href="mailto:sklad3me@sdt-me.cz">sklad3me@sdt-me.cz</a>
+              <td></td>
+              <td>+420 737 229 622</td>
+              <td>
+                <a
+                  href="mailto:sklad3me@sdt-me.cz"
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  sklad3me@sdt-me.cz
+                </a>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <h4
-          id="servis-bus---brandýs-nad-labemstará-boleslav"
-          className="text-2xl font-bold my-4"
-        >
+        <h4 className="text-2xl font-bold my-4">
           Servis BUS - Brandýs nad Labem/Stará Boleslav
         </h4>
 
-        <table className="text-left border-separate border-spacing-4 w-full rounded-md">
+        <table className="text-left border-separate border-spacing-4  rounded-md">
           <thead>
             <tr>
-              <th classname="w-15 text-left">
+              <th className="w-15 text-left">
                 <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
+              <th className="w-10 text-left">
                 <strong></strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w- text-left">
+                <strong>Telefon</strong>
+              </th>
+              <th className="w-40 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td classname="w-15 text-left">Mistr servisu</td>
-              <td classname="w-30 text-left">David Lankaš</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 624</td>
-              <td classname="w-25 text-left">
+              <td>Mistr servisu</td>
+              <td>David Lankaš</td>
+              <td></td>
+              <td></td>
+              <td>+420 737 229 624</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:lankas@sdt-me.cz">lankas@sdt-me.cz</a>
               </td>
             </tr>
@@ -397,125 +420,125 @@ function Kontakty() {
 
           <tbody>
             <tr>
-              <th classname="w-15 text-left">
-                <strong>
-                  <u>Sklad a prodej ND</u>
-                </strong>
-              </th>
+              <th className="text-xl font-bold my-4">Sklad a prodej ND</th>
             </tr>
           </tbody>
           <thead>
             <tr>
-              <th classname="w-15 text-left">
-                <strong></strong>
+              <th className="w-15 text-left">
+                <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-40 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-40 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left ">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td classname="w-15 text-left"></td>
-              <td classname="w-30 text-left">Pavlína Tesárková</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 425</td>
-              <td classname="w-25 text-left">
-                <a href="mailto:sklad2sb@sdt-me.cz">sklad2sb@sdt-me.cz</a>
+              <td></td>
+              <td>Pavlína Tesárková</td>
+              <td></td>
+              <td>+420 737 229 425</td>
+              <td>
+                <a
+                  href="mailto:sklad2sb@sdt-me.cz "
+                  className="text-blue-700 hover:text-blue-400"
+                >
+                  sklad2sb@sdt-me.cz
+                </a>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <h4
-          id="správa-majetku-investice-phm-mycí-linka"
-          className="text-2xl font-bold my-4"
-        >
+        <h4 className="text-2xl font-bold my-4">
           Správa majetku, investice, PHM, mycí linka
         </h4>
 
-        <table className="text-left border-separate border-spacing-4 w-full rounded-md">
+        <table className="text-left border-separate border-spacing-4  rounded-md">
           <thead>
             <tr>
-              <th classname="w-15 text-left">
+              <th className="w-15 text-left">
                 <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-60 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-40 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td classname="w-15 text-left">Prov. ředitel</td>
-              <td classname="w-30 text-left">Ing. Jan Vydra</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 612</td>
-              <td classname="w-25 text-left">
+              <td>Prov. ředitel</td>
+              <td>Ing. Jan Vydra</td>
+              <td></td>
+
+              <td>+420 737 229 612</td>
+              <td className="text-blue-700 hover:text-blue-400">
                 <a href="mailto:vydra@sdt-me.cz">vydra@sdt-me.cz</a>
               </td>
             </tr>
             <tr>
-              <td classname="w-15 text-left">Ved. údržby</td>
-              <td classname="w-30 text-left">Josef Kollman</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 420</td>
-              <td classname="w-25 text-left">
+              <td>Ved. údržby</td>
+              <td>Josef Kollman</td>
+              <td></td>
+              <td>+420 737 229 420</td>
+              <td className="400">
                 <a href="mailto:kollman@sdt-me.cz">kollman@sdt-me.cz</a>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <h4 id="skladování-a-logistika" className="text-2xl font-bold my-4">
-          Skladování a logistika
-        </h4>
-
-        <table className="text-left border-separate border-spacing-4 w-full rounded-md mb-8">
+        <table className="text-left border-separate border-spacing-4  rounded-md mb-8">
           <thead>
             <tr>
-              <th classname="w-15 text-left">
+              <th className="text-2xl font-bold my-4">
+                Skladování a logistika
+              </th>
+            </tr>
+            <tr>
+              <th className="w-15 text-left">
                 <strong>Funkce</strong>
               </th>
-              <th classname="w-30 text-left">
+              <th className="w-30 text-left">
                 <strong>Jméno a příjmení</strong>
               </th>
-              <th classname="w-10 text-left">
-                <strong></strong>
+              <th className="w-10 text-left">
+                <strong>Telefon</strong>
               </th>
-              <th classname="w-20 text-left">
+              <th className="w-40 text-left">
                 <strong>Mobilní telefon</strong>
               </th>
-              <th classname="w-25 text-left">
+              <th className="w-25 text-left">
                 <strong>E-mail</strong>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td classname="w-15 text-left">Ved. skladů</td>
-              <td classname="w-30 text-left">Tomáš Roudnický</td>
-              <td classname="w-10 text-left"></td>
-              <td classname="w-20 text-left">+420 737 229 777</td>
-              <td classname="w-25 text-left">
+              <td>Ved. skladů</td>
+              <td>Tomáš Roudnický</td>
+              <td></td>
+              <td>+420 737 229 777</td>
+              <td className=" text-blue-700 hover:text-blue-400">
                 <a href="mailto:roudnicky@sdt-me.cz">roudnicky@sdt-me.cz</a>
               </td>
             </tr>

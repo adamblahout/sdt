@@ -104,6 +104,7 @@ const Nav = () => {
                 key={link.name}
                 className="hover:bg-gray-700 hover:text-white block rounded-md  py-2 text-base font-medium"
                 aria-current="page"
+                onClick={() => setOpen(!open)}
               >
                 <Link
                   to={link.link}

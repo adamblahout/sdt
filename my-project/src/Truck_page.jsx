@@ -4,7 +4,7 @@ function TruckPage() {
   return (
     <>
       <>
-        <div className="ml-16">
+        <div className="mx-4 lg:mx-16">
           <h1 className="text-4xl font-bold my-4 text-center">Truck</h1>
           <h2 className="text-3xl font-bold my-4"> Servis</h2>
           <section>

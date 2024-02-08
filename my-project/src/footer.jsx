@@ -1,7 +1,7 @@
 function PartnerWeby() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-12 my-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-12 my-8 mt-10 border-t-4 pt-10">
         <aside className="ml-8">
           <h2 className="font-bold text-2xl text-gray-700">
             Servis Dopravní Techniky a.s.
