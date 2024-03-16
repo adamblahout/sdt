@@ -12,7 +12,6 @@ function PartnerWeby() {
               alt=""
               className="opacity-60 hover:opacity-100 transition duration-200"
             />
-            ,
           </a>
           <a href="https://csad-sc.cz/" target="_blank">
             <img
